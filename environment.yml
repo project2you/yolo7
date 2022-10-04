@@ -1,6 +1,6 @@
 #conda env export --no-builds | findstr -v "prefix" > environment.yml
 #conda env create --file=environment.yml
-name: yolo7
+name: yolov7
 channels:
   - pytorch
   - defaults
